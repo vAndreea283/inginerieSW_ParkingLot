@@ -14,11 +14,7 @@
     <main class="container-fluid mt-5">
         <jsp:doBody/>
     </main>
-    <footer class="text-center py-3 mt-4 border-top">
-        © <span id="year"></span> ULBS – Andreea-Maria Vlad
-    </footer>
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+    <jsp:include page="/WEB-INF/pages/footer.jsp" />
+    <script src="${pageContext.request.contextPath}/scripts/form-validation.js"></script>
 </body>
 </html>

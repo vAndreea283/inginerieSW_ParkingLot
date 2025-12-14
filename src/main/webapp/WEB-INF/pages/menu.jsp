@@ -20,7 +20,7 @@
                             aria-current="page" href="${pageContext.request.contextPath}/Cars">Cars</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"
+                        <a class="nav-link
                             ${activePage eq 'Users' ? 'active' : ''}"
                             aria-current="page" href="${pageContext.request.contextPath}/Users">Users</a>
                     </li>
